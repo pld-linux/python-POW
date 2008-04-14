@@ -41,5 +41,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README docs/*.pdf
-%dir %{py_sitedir}/%{module}/*.py[co]
-%attr(755,root,root) %{py_sitedir}/%{module}/*.so
+%dir %{py_sitedir}/POW
+%{py_sitedir}/POW/*.py[co]
+%attr(755,root,root) %{py_sitedir}/POW/*.so
