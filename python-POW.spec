@@ -12,7 +12,7 @@ Source0:	http://dl.sourceforge.net/pow/%{module}-%{version}.tar.gz
 URL:		http://sourceforge.net/projects/pow/
 BuildRequires:	openssl-devel >= 0.9.6
 BuildRequires:	python-devel >= 1:2.4
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
